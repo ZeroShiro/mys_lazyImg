@@ -60,3 +60,8 @@ Vue.component("mysImg", mysImg);
 |   coustomTop    | 0      |    -     |      Number       |        距离顶部提前多少加载图片         |
 |    scrollTop    | -      |    -     |      Number       |             滑动 scrollTop              |
 |  iscustomTitle  | -      |    -     |      String       |               显示加载中                |
+
+
+## 效果
+![image](https://github.com/ZeroShiro/mys_lazyImg/blob/master/images/1.png)
+![image](https://github.com/ZeroShiro/mys_lazyImg/blob/master/images/2.png)
