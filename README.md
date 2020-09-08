@@ -37,7 +37,7 @@ Vue.component("mysImg", mysImg);
 ! isCustomLoading c2
 ! failPath
 需要 自行定义图片
-站位图 失败图 大小css定义
+站位图 失败图 大小 css 定义
 
 #### props 值说明
 
