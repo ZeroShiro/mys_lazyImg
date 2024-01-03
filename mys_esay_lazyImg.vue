@@ -16,6 +16,7 @@ export default {
     },
     bgColor: {
       type: String,
+      default:'#f4f5f5',
     },
     errorPath: {
       type: [String, Boolean],
