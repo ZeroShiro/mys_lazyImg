@@ -32,8 +32,10 @@ export default {
   methods: {
     imageLoad(e) {
       this.imgError = false;
-      setTimeout(() => {
+      let timer = setTimeout(() => {
         this.showImg = true;
+        clearTimeout(timer);
+        timer = null;
       }, 50);
     },
     imageError(e) {
