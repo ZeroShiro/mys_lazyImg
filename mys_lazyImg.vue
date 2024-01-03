@@ -162,9 +162,11 @@ export default {
     mLoad(e) {
       this.imgError = false;
       this.showImg = true;
-      setTimeout(() => {
+     let timer = setTimeout(() => {
         this.resultImg = true;
         console.log("success");
+        clearTimeout(timer);
+        timer = null;
         // console.log("success", e.currentTarget.dataset.id);
       }, 50);
     },
