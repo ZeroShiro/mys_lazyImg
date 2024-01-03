@@ -6,12 +6,13 @@ uniapp 图片懒加载
 
 # 简单版使用
 
+```javascript
 <view style="width: 100px;height: 100px;">
       <mys_esay_lazyImg  url="https://img2.baidu.com/it/u=3852691531,3235929066&fm=253&fmt=auto&app=120&f=JPEG?w=900&h=500">
 
       </mys_esay_lazyImg>
 </view>
-
+```
 
 ## 图片懒加载
 
